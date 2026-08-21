@@ -1,0 +1,3 @@
+(tree /f /a & for /r %i in (*) do @if not "%~nxi"=="output.txt" (echo. & echo --- FILE: %~pni%~xi --- & echo. & type "%i")) > output.txt
+
+como inserir etl neste projeto de maneira coerente como exportando dados em csv ou pdf: 
