@@ -1,3 +1,5 @@
 (tree /f /a & for /r %i in (*) do @if not "%~nxi"=="output.txt" (echo. & echo --- FILE: %~pni%~xi --- & echo. & type "%i")) > output.txt
+$o=(Join-Path (Get-Location) 'output.txt'); $files=Get-ChildItem -LiteralPath . -Recurse -File | Where-Object { $_.FullName -ne $o }; & { cmd /c "tree /f /a"; foreach($f in $files) { "`n--- FILE: $($f.FullName) ---"; Get-Content -LiteralPath $f.FullName } } | Out-File -LiteralPath $o -Encoding default
+
 
 como inserir etl neste projeto de maneira coerente como exportando dados em csv ou pdf: 
