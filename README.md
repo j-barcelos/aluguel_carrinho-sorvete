@@ -6,11 +6,11 @@
 
 <p align="center">
   <a href="#-funcionalidades">Funcionalidades</a> •
-  <a href="#-tecnologias">Tecnologias</a> •
+  <a href="#%EF%B8%8F-tecnologias">Tecnologias</a> •
   <a href="#-instalação">Instalação</a> •
   <a href="#-como-usar">Como Usar</a> •
   <a href="#-api-rest">API REST</a> •
-  <a href="#-autor">Autor</a>
+  <a href="#%E2%80%8D-desenvolvedorautor">Autor</a>
 </p>
 
 ---
